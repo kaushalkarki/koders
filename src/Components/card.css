@@ -1,0 +1,94 @@
+.cardBox {
+  padding-top: 3rem;
+}
+
+.planBasic {
+  max-width: 20rem;
+  min-width: 20rem;
+  margin-top: 30px;
+}
+.planBasic:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: 0.5s all ease;
+}
+.heading {
+  height: 180px;
+  background: #fff4e8;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+.saveLabel {
+  margin-left: auto;
+  background: #ff8d1a;
+  padding: 0 8px;
+  color: #fff;
+  white-space: nowrap;
+}
+.planDesc {
+  height: 208px;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #e5eaf4;
+  display: flex;
+  flex-flow: wrap;
+}
+.plantag {
+  background: #2ab7ca;
+  width: fit-content;
+  padding: 2px 16px 2px 8px;
+  top: -12px;
+  left: 0;
+  color: #fff;
+  margin-top: -32px;
+}
+.cur {
+  margin-bottom: 10px;
+}
+.content {
+  color: #5a7184;
+  font-size: 1.125rem;
+  text-align: initial;
+  margin-top: -45px;
+}
+.link {
+  color: #fe8d1b;
+}
+.priceDesc {
+  background-color: #fff;
+  padding: 20px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.clsPrice {
+  color: #1565d8;
+  float: left;
+  font-size: 1rem;
+}
+.hrline {
+  margin: 0px;
+}
+.buyNow {
+  margin-top: 40px;
+  height: 3rem;
+  width: 17rem;
+  background-color: #ff8d1a;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+@media (max-width: 400px) {
+  .tab {
+    border-radius: 20px;
+  }
+}

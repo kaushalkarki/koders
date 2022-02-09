@@ -1,0 +1,54 @@
+/* .CurriculumSection {
+  background: #fafafa;
+  padding: 2rem 0;
+} */
+.CurriculumSection {
+  margin: 0 45px 0 45px;
+  width: 75vw;
+  display: inline-flex;
+}
+
+.Header {
+  text-align: center;
+}
+.CourseBar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.tab {
+  cursor: pointer;
+  width: 20vw;
+  font-size: 1.25rem;
+  line-height: 0.1rem;
+  height: 8rem;
+}
+.tab.active {
+  background: #ff8d1a;
+  color: #fff;
+}
+.tab:hover {
+  background-color: #ff8d1a;
+  color: #fff;
+
+  .down {
+    color: #fff;
+  }
+}
+.down {
+  font-size: 0.875rem;
+  color: #5a7184;
+}
+.down.active {
+  color: #fff;
+}
+@media (max-width: 360px) {
+  .tab {
+    border-radius: 25px;
+  }
+}
+.cardBody {
+  display: contents;
+  width: 21rem;
+}
